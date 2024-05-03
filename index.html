@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Trilhas</title>
+</head>
+
+<body>
+    <img src="./imgs/Logotrilhaspreto.png" class="preto">
+    <div class="container">     
+        <img class="logodopc" src="./imgs/Logo trilhas azul.png" alt="logo trilhas">
+        <div class="inscricao">
+            <h1>Inscreva-se</h1>
+            <form action="">
+                <input class="box" id="nome" name="nome" type="text" placeholder="Nome Completo" required>
+                <input class="box" id="email" name="email" type="email" placeholder="E-mail" required>
+                <input class="box" id="CPF" name="CPF" type="text" placeholder="CPF" required>
+                <input class="box" id="telefone" name="telefone" type="tel" placeholder="Telefone" required>
+                <input class="box" id="endereco" name="endereco" type="text" placeholder="Endereço" required>
+                <input class="box" id="cidade" name="cidade" type="text" placeholder="Cidade" required>
+
+                <div class="texto_de_cima">
+                    Documento de identidade
+                    <div class="moldura_file">
+                        <img class="file" src="./imgs/file.png">
+                        <label for="foto_identidade" class="arquivo">
+                            <span>Selecionar</span>
+                            <input type="file" id="foto_identidade" name="foto_identidade">
+                        </label>
+                    </div>
+                </div>
+
+                <!-- <div class="texto_de_cima2">Comprovante de residência</div> -->
+                <div class="texto_de_cima2">
+                    Comprovante de residência
+                    <div class="moldura_file2">
+                        <img class="file" src="./imgs/file.png">
+                        <label for="foto_comprovante_residencia" class="arquivo">
+                            <span>Selecionar</span>
+                            <input type="file" id="foto_comprovante_residencia" name="foto_comprovante_residencia">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="final">
+                    <p>*Atenção: Todos os dados acima são obrigatórios</p>
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Inscreva-se">
+                </div>
+            </form>
+        </div>
+
+    </div> 
+</body>
+</html>
